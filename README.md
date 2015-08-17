@@ -19,7 +19,7 @@
 Для компиляции вам потребуется Visual Studio 2008 и обновление Visual Studio 2008 SP1, скачать их можно например тут: http://nnm-club.me/forum/viewtopic.php?t=170398 
 ### Установка
 Скачай и установи git https://git-scm.com/downloads<br />
-В консоле выполняете:<br />
+В консоле выполни:<br />
 ```
 cd ~
 git clone git://github.com/drunkwolfs/mt2-source.git
