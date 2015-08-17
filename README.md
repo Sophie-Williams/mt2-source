@@ -17,5 +17,12 @@
 
 Была протестирована только Release версия, если у вас проблемы с остальными конфигурациями - опишите ее как можно более подробно [тут](https://github.com/drunkwolfs/mt2-source/issues).<br />
 Для компиляции вам потребуется Visual Studio 2008 и обновление Visual Studio 2008 SP1, скачать их можно например тут: http://nnm-club.me/forum/viewtopic.php?t=170398 
+### Установка
+Скачиваете и устанавливаете git https://git-scm.com/downloads<br />
+В консоле выполняете:<br />
+`cd ~
+git clone git://github.com/drunkwolfs/mt2-source.git`
+Файлы скачаются в вашу домашнюю папку/папку пользователя.
+Откройте файл `/mt2-source/client/source/Metin2Client_VC90.sln` в Visual Studio 2008 SP1, нажмите Собрать.
 
 ## English
