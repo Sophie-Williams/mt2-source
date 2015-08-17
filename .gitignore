@@ -4,6 +4,20 @@
 *.o
 *.obj
 
+# Visual Studio
+*.user
+*.suo
+*.ncb
+BuildLog.htm
+*.res
+*.ilk
+*.pdb
+*.idb
+*.dep
+Release/
+Debug/
+
+
 # Precompiled Headers
 *.gch
 *.pch
