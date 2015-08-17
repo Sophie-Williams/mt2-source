@@ -20,7 +20,8 @@
 ### Установка
 Скачиваете и устанавливаете git https://git-scm.com/downloads<br />
 В консоле выполняете:<br />
-``cd ~
+``code
+cd ~
 git clone git://github.com/drunkwolfs/mt2-source.git``
 Файлы скачаются в вашу домашнюю папку/папку пользователя.
 Откройте файл `/mt2-source/client/source/Metin2Client_VC90.sln` в Visual Studio 2008 SP1, нажмите Собрать.
