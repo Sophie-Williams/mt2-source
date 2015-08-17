@@ -3,7 +3,7 @@
   1. [Описание](https://github.com/drunkwolfs/mt2-source#Описание)<br />
   2. [Установка](https://github.com/drunkwolfs/mt2-source#Установка)<br />
 * [English](https://github.com/drunkwolfs/mt2-source#English)<br />
-  * [Install](https://github.com/drunkwolfs/mt2-source#Install)<br />
+  * [Install](https://github.com/drunkwolfs/mt2-source#Install)
 ## Русский
 ### Описание
 Клиент подходит для 40k клиентов, ключи xTEA стандартные.
