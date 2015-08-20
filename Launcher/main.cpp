@@ -88,6 +88,8 @@ bool case_mtd(int mtd){
 }
 
 BOOL CALLBACK MainDlgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM) {
+	HDC hdc;
+	PAINTSTRUCT ps;
 	switch(uMsg) {
 		case WM_COMMAND:
 			switch(LOWORD(wParam)) {
@@ -114,8 +116,11 @@ BOOL CALLBACK MainDlgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM) {
 			PostQuitMessage(0);
 			break;
 		case WM_PAINT:
-			DrawIconEx(GetDC(hWnd), 0, 0, HiconDLG, 128, 128, NULL, NULL, DI_NORMAL);
-			break;
+            hdc = BeginPaint(hWnd, &ps);
+			DrawIconEx(hdc, 0, 0, HiconDLG, 128, 128, NULL, NULL, DI_NORMAL);
+            EndPaint(hWnd, &ps);
+            break;
+
 	}
 	
 	return false;
